@@ -12,10 +12,15 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Secrets (in case you ever add any)
+# Secrets
 *.env
 config.local.json
 .env
 secrets.json
 *.key
-*.pem
+*.pemt
+
+# Files
+test_scratch.py
+purge.py
+**/del.py
