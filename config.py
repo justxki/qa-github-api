@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()  # reads .env from project root, loads into env
 import os
 
 BASE_URI = "https://api.github.com"

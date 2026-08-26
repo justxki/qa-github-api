@@ -1,5 +1,5 @@
 import pytest
-from clients.github_client import GithubClient
+from client.github_client import GithubClient
 
 @pytest.fixture
 def github():
